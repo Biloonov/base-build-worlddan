@@ -1,0 +1,3 @@
+test(foundry): add invariant tests for base bridge token deposit and withdrawal flows
+fix(bridge): resolve cross-domain message replay vulnerability on base rollup
+chore(deploy): script hardhat deployment pipeline for base mainnet with verifier
