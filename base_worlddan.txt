@@ -1,3 +1,11 @@
 test(foundry): add invariant tests for base bridge token deposit and withdrawal flows
 fix(bridge): resolve cross-domain message replay vulnerability on base rollup
 chore(deploy): script hardhat deployment pipeline for base mainnet with verifier
+feat(node): implement custom mempool sorting algorithm for OP Stack
+​refactor(sequencer): optimize batch submission frequency to L1
+​fix(rpc): resolve timeout issues during high throughput state sync
+​perf(state): integrate reth-based state root calculation for Base
+​feat(p2p): add peer discovery bootstrapping for private L2 nodes
+​chore(config): update OP node rollup configuration for mainnet
+fix(sync): prevent race condition in L2 block derivation
+refactor(db): migrate node storage to mdbx for improved IOPS
