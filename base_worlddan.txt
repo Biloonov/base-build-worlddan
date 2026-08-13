@@ -9,3 +9,15 @@ feat(node): implement custom mempool sorting algorithm for OP Stack
 ​chore(config): update OP node rollup configuration for mainnet
 fix(sync): prevent race condition in L2 block derivation
 refactor(db): migrate node storage to mdbx for improved IOPS
+feat(genesis): configure initial state allocations for Base devnet
+​perf(l1-sync): parallelize L1 block header retrieval
+​fix(consensus): correct epoch transition boundary edge case
+​chore(deps): bump op-geth to latest stable release
+​feat(telemetry): add prometheus metrics for sequencer batch size
+​refactor(engine): decouple execution payload validation logic
+​fix(api): sanitize JSON-RPC inputs for debug endpoints
+​perf(trie): optimize Merkle Patricia Trie pruning mechanism
+​feat(fault-proofs): lay groundwork for Cannon fault proof integration
+chore(docker): optimize container multi-stage build for Base nodes
+​fix(gossip): filter redundant block propagation in peer network
+​refactor(txpool): implement dynamic fee-based transaction eviction
