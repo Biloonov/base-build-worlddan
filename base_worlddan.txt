@@ -21,3 +21,14 @@ feat(genesis): configure initial state allocations for Base devnet
 chore(docker): optimize container multi-stage build for Base nodes
 ​fix(gossip): filter redundant block propagation in peer network
 ​refactor(txpool): implement dynamic fee-based transaction eviction
+feat(bridge): implement L1-to-L2 message relay retry mechanism
+​fix(messenger): prevent replay attacks on cross-domain transactions
+​refactor(portal): upgrade OptimismPortal contract for Base spec
+​perf(relay): batch process withdrawal proofs to reduce L1 gas
+​feat(oracle): integrate decentralized price feed for bridge fees
+​test(bridge): add invariant fuzzing for token deposit flows
+​fix(withdrawals): correct state root verification delay window
+​chore(deploy): script L1StandardBridge initialization
+​feat(security): add pausable functionality to cross-chain messenger
+​refactor(events): standardize emit logs for L2-to-L1 finalization
+​perf(encoding): optimize cross-domain message payload compression
