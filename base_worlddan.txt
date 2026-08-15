@@ -32,3 +32,12 @@ feat(bridge): implement L1-to-L2 message relay retry mechanism
 ​feat(security): add pausable functionality to cross-chain messenger
 ​refactor(events): standardize emit logs for L2-to-L1 finalization
 ​perf(encoding): optimize cross-domain message payload compression
+fix(gas): accurately estimate L1 data fee for bridged tokens
+​feat(verifier): implement ZK-proof verification placeholder
+​chore(abi): export bridge contract interfaces for frontend integration
+​test(integration): simulate L1 reorg impact on L2 bridge state
+​refactor(admin): transition bridge ownership to multi-sig wallet
+​feat(limits): enforce dynamic rate limits on token withdrawals
+​fix(receipts): correctly parse L1 transaction receipts in relayer
+​perf(indexer): optimize event scanning for historical bridge transfers
+​chore(scripts): automate bridge liquidity rebalancing alerts
