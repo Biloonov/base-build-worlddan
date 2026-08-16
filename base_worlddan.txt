@@ -61,3 +61,4 @@ refactor(yield): optimize distribution logic for tokenized real estate
 ​fix(token): handle transfer restrictions during dividend distribution
 ​perf(indexer): optimize indexing for compliant asset transfer logs
 ​chore(scripts): automate compliance report generation from event logs
+feat(oracle): deploy Pyth Network price feed integration layer
