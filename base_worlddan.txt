@@ -64,3 +64,4 @@ refactor(yield): optimize distribution logic for tokenized real estate
 feat(oracle): deploy Pyth Network price feed integration layer
 feat(bridge): implement L1-to-L2 message retry mechanism on OptimismPortal
 fix(messenger): prevent cross-domain replay attacks via dynamic nonces
+refactor(portal): optimize L2OutputOracle state root updates
