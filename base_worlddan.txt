@@ -55,3 +55,4 @@ perf(encoding): compress payload bytes in CrossDomainMessenger calldata
 fix(gas): calculate L1 data fee margin for cross-chain message execution
 feat(verifier): add validity proof verification hooks for hybrid rollups
 chore(abi): export updated bridge interfaces for dApp SDK integration
+test(e2e): simulate deep L1 chain reorg impact on L2 state derivation
