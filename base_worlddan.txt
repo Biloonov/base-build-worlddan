@@ -50,3 +50,4 @@ test(bridge): add invariant fuzzing for ERC-20 token deposit flows
 fix(withdrawals): align dispute game finalization delay with protocol spec
 chore(deploy): script L1StandardBridge upgrade via ProxyAdmin
 feat(security): implement pause circuit-breaker for cross-chain transactions
+refactor(events): standardize log signatures for L2-to-L1 state proofs
