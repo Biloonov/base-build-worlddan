@@ -53,3 +53,4 @@ feat(security): implement pause circuit-breaker for cross-chain transactions
 refactor(events): standardize log signatures for L2-to-L1 state proofs
 perf(encoding): compress payload bytes in CrossDomainMessenger calldata
 fix(gas): calculate L1 data fee margin for cross-chain message execution
+feat(verifier): add validity proof verification hooks for hybrid rollups
