@@ -46,3 +46,4 @@ fix(messenger): prevent cross-domain replay attacks via dynamic nonces
 refactor(portal): optimize L2OutputOracle state root updates
 perf(relayer): batch withdrawal proofs to minimize L1 gas consumption
 feat(oracle): integrate price feeds for dynamic cross-chain bridge fees
+test(bridge): add invariant fuzzing for ERC-20 token deposit flows
