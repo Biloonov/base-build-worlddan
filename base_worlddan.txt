@@ -48,3 +48,4 @@ perf(relayer): batch withdrawal proofs to minimize L1 gas consumption
 feat(oracle): integrate price feeds for dynamic cross-chain bridge fees
 test(bridge): add invariant fuzzing for ERC-20 token deposit flows
 fix(withdrawals): align dispute game finalization delay with protocol spec
+chore(deploy): script L1StandardBridge upgrade via ProxyAdmin
