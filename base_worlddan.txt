@@ -45,3 +45,4 @@ feat(bridge): implement L1-to-L2 message retry mechanism on OptimismPortal
 fix(messenger): prevent cross-domain replay attacks via dynamic nonces
 refactor(portal): optimize L2OutputOracle state root updates
 perf(relayer): batch withdrawal proofs to minimize L1 gas consumption
+feat(oracle): integrate price feeds for dynamic cross-chain bridge fees
