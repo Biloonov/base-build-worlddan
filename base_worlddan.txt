@@ -41,27 +41,7 @@ fix(gas): accurately estimate L1 data fee for bridged tokens
 ​fix(receipts): correctly parse L1 transaction receipts in relayer
 ​perf(indexer): optimize event scanning for historical bridge transfers
 ​chore(scripts): automate bridge liquidity rebalancing alerts
-feat(rwa): implement ERC-3643 compliant permissioned token contract
-​refactor(identity): optimize ONCHAINID claim verification logic
-​fix(compliance): enforce country-code restriction checks on transfers
-​perf(kyc): optimize off-chain attestation verification in smart contract
-​feat(rwa): add clawback mechanism for regulatory asset freezing
-​test(rwa): write invariant tests for compliant transfer restrictions
-​fix(whitelist): correct address removal edge case in registry contract
-​chore(deploy): script compliant token suite initialization on Base
-​feat(oracle): integrate off-chain asset valuation (NAV) feed
-refactor(yield): optimize distribution logic for tokenized real estate
-​perf(batch): implement batch transfer approvals for institutional wallets
-​fix(identity): resolve claim expiration timestamp validation error
-​feat(rwa): add pause function triggered by compliance monitoring
-​chore(abi): export compliance registry interface for fintech API
-​test(integration): simulate investor onboarding and KYC verification
-​refactor(admin): delegate compliance role management to legal multisig
-​feat(limits): enforce dynamic individual investment caps
-​fix(token): handle transfer restrictions during dividend distribution
-​perf(indexer): optimize indexing for compliant asset transfer logs
-​chore(scripts): automate compliance report generation from event logs
-feat(oracle): deploy Pyth Network price feed integration layer
 feat(bridge): implement L1-to-L2 message retry mechanism on OptimismPortal
 fix(messenger): prevent cross-domain replay attacks via dynamic nonces
 refactor(portal): optimize L2OutputOracle state root updates
+perf(relayer): batch withdrawal proofs to minimize L1 gas consumption
