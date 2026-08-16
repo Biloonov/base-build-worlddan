@@ -57,3 +57,4 @@ feat(verifier): add validity proof verification hooks for hybrid rollups
 chore(abi): export updated bridge interfaces for dApp SDK integration
 test(e2e): simulate deep L1 chain reorg impact on L2 state derivation
 refactor(admin): transfer bridge ownership to Safe multi-sig governance
+feat(limits): enforce sliding-window rate limits on high-value deposits
