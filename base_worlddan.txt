@@ -70,3 +70,4 @@ chore(deps): upgrade userop.js to support latest Base network spec
 fix(nonce): handle non-sequential nonce management in 2D nonce space
 refactor(gas-oracle): synchronize L1 data fee multiplier dynamically
 feat(session): implement temporary session keys with scoped permissions
+perf(calldata): strip zero-bytes from UserOp calldata to save L1 gas
