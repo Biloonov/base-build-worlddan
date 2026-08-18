@@ -63,3 +63,4 @@ perf(indexer): index historical bridge events via subql pipeline
 chore(scripts): automate liquidity rebalancing alerts across bridge pools
 feat(aa): deploy ERC-4337 EntryPoint contract on Base mainnet
 refactor(paymaster): implement verifying paymaster for sponsored transactions
+fix(bundler): resolve gas estimation mismatch in UserOperation simulation
