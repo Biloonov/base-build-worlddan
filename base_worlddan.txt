@@ -59,3 +59,4 @@ test(e2e): simulate deep L1 chain reorg impact on L2 state derivation
 refactor(admin): transfer bridge ownership to Safe multi-sig governance
 feat(limits): enforce sliding-window rate limits on high-value deposits
 fix(receipts): resolve event log parsing errors in off-chain relayer service
+perf(indexer): index historical bridge events via subql pipeline
