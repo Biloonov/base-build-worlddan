@@ -61,3 +61,4 @@ feat(limits): enforce sliding-window rate limits on high-value deposits
 fix(receipts): resolve event log parsing errors in off-chain relayer service
 perf(indexer): index historical bridge events via subql pipeline
 chore(scripts): automate liquidity rebalancing alerts across bridge pools
+feat(aa): deploy ERC-4337 EntryPoint contract on Base mainnet
