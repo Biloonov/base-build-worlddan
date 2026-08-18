@@ -66,3 +66,4 @@ refactor(paymaster): implement verifying paymaster for sponsored transactions
 fix(bundler): resolve gas estimation mismatch in UserOperation simulation
 perf(yul): rewrite signature validation in pure assembly
 feat(wallet): add social recovery module for smart contract accounts
+chore(deps): upgrade userop.js to support latest Base network spec
