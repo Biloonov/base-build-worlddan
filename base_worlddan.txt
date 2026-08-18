@@ -72,3 +72,4 @@ refactor(gas-oracle): synchronize L1 data fee multiplier dynamically
 feat(session): implement temporary session keys with scoped permissions
 perf(calldata): strip zero-bytes from UserOp calldata to save L1 gas
 test(aa): simulate high-concurrency bundler mempool stress
+fix(signature): correct EIP-712 domain separator for Base chain ID
