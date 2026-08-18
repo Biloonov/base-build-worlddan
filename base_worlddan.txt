@@ -74,3 +74,4 @@ perf(calldata): strip zero-bytes from UserOp calldata to save L1 gas
 test(aa): simulate high-concurrency bundler mempool stress
 fix(signature): correct EIP-712 domain separator for Base chain ID
 feat(plugins): create modular architecture for smart account extensions
+refactor(factory): optimize CREATE2 salt generation for account pre-funding
