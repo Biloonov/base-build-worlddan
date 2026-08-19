@@ -92,3 +92,4 @@ fix(coverage): exclude mock contracts from lcov coverage reports
 refactor(env): standardize environment variable validation across tools
 feat(indexer): deploy custom subquery project for Base events
 perf(build): cache smart contract compilation artifacts in CI
+test(e2e): implement end-to-end flow using Playwright and Synpress
