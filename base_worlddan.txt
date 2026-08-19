@@ -78,3 +78,4 @@ refactor(factory): optimize CREATE2 salt generation for account pre-funding
 perf(execution): batch multiple internal calls into a single UserOp
 chore(config): whitelist canonical ERC-4337 infrastructure addresses
 fix(sponsor): prevent paymaster balance drainage from malicious ops
+feat(multicall): integrate native multicall3 for aggregated read/write
