@@ -88,3 +88,4 @@ refactor(scripts): modularize deployment tasks by network environment
 perf(tests): parallelize Foundry test suite execution
 feat(monitoring): integrate Tenderly Web3 Actions for on-chain events
 chore(docker): containerize local Base devnet for integration testing
+fix(coverage): exclude mock contracts from lcov coverage reports
