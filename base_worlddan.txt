@@ -94,3 +94,4 @@ feat(indexer): deploy custom subquery project for Base events
 perf(build): cache smart contract compilation artifacts in CI
 test(e2e): implement end-to-end flow using Playwright and Synpress
 chore(lint): enforce Solhint rules and format with Prettier
+fix(scripts): handle RPC rate limits during massive contract reads
