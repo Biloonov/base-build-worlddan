@@ -99,3 +99,4 @@ feat(alerts): configure PagerDuty integration for critical bridge failures
 refactor(tasks): migrate custom Hardhat tasks to standalone CLI tool
 perf(rpc): load balance internal testing across multiple Alchemy endpoints
 feat(subgraph): map Base network block data to GraphQL schema
+fix(faucet): prevent sybil abuse in local devnet token dispenser
