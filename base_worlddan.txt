@@ -77,3 +77,4 @@ feat(plugins): create modular architecture for smart account extensions
 refactor(factory): optimize CREATE2 salt generation for account pre-funding
 perf(execution): batch multiple internal calls into a single UserOp
 chore(config): whitelist canonical ERC-4337 infrastructure addresses
+fix(sponsor): prevent paymaster balance drainage from malicious ops
