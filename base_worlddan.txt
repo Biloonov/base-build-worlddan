@@ -91,3 +91,4 @@ chore(docker): containerize local Base devnet for integration testing
 fix(coverage): exclude mock contracts from lcov coverage reports
 refactor(env): standardize environment variable validation across tools
 feat(indexer): deploy custom subquery project for Base events
+perf(build): cache smart contract compilation artifacts in CI
