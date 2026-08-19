@@ -85,3 +85,4 @@ chore(ci): implement automated smart contract slither analysis
 feat(deploy): create deterministic deployment pipeline via Hardhat Ignition
 fix(verify): resolve Etherscan/Basescan source code verification timeout
 refactor(scripts): modularize deployment tasks by network environment
+perf(tests): parallelize Foundry test suite execution
