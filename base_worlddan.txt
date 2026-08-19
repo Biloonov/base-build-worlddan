@@ -97,3 +97,4 @@ chore(lint): enforce Solhint rules and format with Prettier
 fix(scripts): handle RPC rate limits during massive contract reads
 feat(alerts): configure PagerDuty integration for critical bridge failures
 refactor(tasks): migrate custom Hardhat tasks to standalone CLI tool
+perf(rpc): load balance internal testing across multiple Alchemy endpoints
