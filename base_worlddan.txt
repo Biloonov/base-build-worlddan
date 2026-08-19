@@ -80,3 +80,4 @@ chore(config): whitelist canonical ERC-4337 infrastructure addresses
 fix(sponsor): prevent paymaster balance drainage from malicious ops
 feat(multicall): integrate native multicall3 for aggregated read/write
 refactor(auth): support secp256r1 signature verification for hardware wallets
+perf(l2-fee): minimize state reads during L2 gas calculation
