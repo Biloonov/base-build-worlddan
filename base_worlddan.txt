@@ -90,3 +90,4 @@ feat(monitoring): integrate Tenderly Web3 Actions for on-chain events
 chore(docker): containerize local Base devnet for integration testing
 fix(coverage): exclude mock contracts from lcov coverage reports
 refactor(env): standardize environment variable validation across tools
+feat(indexer): deploy custom subquery project for Base events
