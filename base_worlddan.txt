@@ -83,3 +83,4 @@ refactor(auth): support secp256r1 signature verification for hardware wallets
 perf(l2-fee): minimize state reads during L2 gas calculation
 chore(ci): implement automated smart contract slither analysis
 feat(deploy): create deterministic deployment pipeline via Hardhat Ignition
+fix(verify): resolve Etherscan/Basescan source code verification timeout
