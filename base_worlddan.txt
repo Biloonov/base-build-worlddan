@@ -105,3 +105,4 @@ feat(deploy): implement foundry forge script deployment with deterministic CREAT
 fix(verification): patch sourcify bytecode metadata matching for Base mainnet
 refactor(pipeline): isolate test staging environments with dynamic RPC fork management
 perf(ci): enable caching for rust-based foundry binaries and dependency trees
+feat(observability): setup Datadog APM tracing for Base sequencer node metrics
