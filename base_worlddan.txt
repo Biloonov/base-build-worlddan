@@ -117,3 +117,4 @@ fix(deployment): add automatic gas price bump strategy for stuck deployment txs
 feat(logging): configure OpenTelemetry collector for structured contract execution logs
 refactor(cli): convert deploy scripts to TypeScript with strict Zod schema parsing
 perf(storage): configure automated state trie pruning for local Base archive nodes
+feat(subgraph): deploy self-hosted Graph Node cluster pointed to Base mainnet
