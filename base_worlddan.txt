@@ -114,3 +114,4 @@ perf(compilation): optimize solc optimizer runs and Yul IR pipeline settings
 test(chaos): implement automated L2 RPC connection drop simulation in staging
 chore(security): integrate Aderyn static analyzer into pre-merge PR workflow
 fix(deployment): add automatic gas price bump strategy for stuck deployment txs
+feat(logging): configure OpenTelemetry collector for structured contract execution logs
