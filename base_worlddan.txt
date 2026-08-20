@@ -100,3 +100,4 @@ refactor(tasks): migrate custom Hardhat tasks to standalone CLI tool
 perf(rpc): load balance internal testing across multiple Alchemy endpoints
 feat(subgraph): map Base network block data to GraphQL schema
 fix(faucet): prevent sybil abuse in local devnet token dispenser
+chore(ci): configure automated Mythril dynamic security scan in GitHub Actions
