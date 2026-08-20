@@ -108,3 +108,4 @@ perf(ci): enable caching for rust-based foundry binaries and dependency trees
 feat(observability): setup Datadog APM tracing for Base sequencer node metrics
 chore(k8s): add Helm charts for autoscaling read-only Base RPC node clusters
 fix(fuzz): fix memory leak during long-running Echidna invariant test suites
+refactor(config): centralize chain ID mapping for Base mainnet, Sepolia, and local devnet
