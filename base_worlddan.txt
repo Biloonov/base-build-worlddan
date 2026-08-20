@@ -112,3 +112,4 @@ refactor(config): centralize chain ID mapping for Base mainnet, Sepolia, and loc
 feat(indexer): deploy custom Envio HyperSync pipeline for low-latency event indexing
 perf(compilation): optimize solc optimizer runs and Yul IR pipeline settings
 test(chaos): implement automated L2 RPC connection drop simulation in staging
+chore(security): integrate Aderyn static analyzer into pre-merge PR workflow
