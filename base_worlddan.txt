@@ -111,3 +111,4 @@ fix(fuzz): fix memory leak during long-running Echidna invariant test suites
 refactor(config): centralize chain ID mapping for Base mainnet, Sepolia, and local devnet
 feat(indexer): deploy custom Envio HyperSync pipeline for low-latency event indexing
 perf(compilation): optimize solc optimizer runs and Yul IR pipeline settings
+test(chaos): implement automated L2 RPC connection drop simulation in staging
