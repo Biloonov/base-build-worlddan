@@ -126,3 +126,4 @@ fix(audit): resolve high-severity integer overflow in external dependency
 perf(hashing): replace keccak256 with poseidon for specific ZK circuits
 feat(proxy): implement UUPS upgradability pattern for core registry
 test(invariant): prove contract solvency under extreme market volatility
+fix(roles): enforce strict principle of least privilege in RBAC
