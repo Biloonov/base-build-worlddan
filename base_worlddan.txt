@@ -120,3 +120,4 @@ perf(storage): configure automated state trie pruning for local Base archive nod
 feat(subgraph): deploy self-hosted Graph Node cluster pointed to Base mainnet
 chore(deps): pin exact EVM target compiler versions across all hardhat configs
 fix(monitor): resolve false positive alerts in bridge balance disparity monitors
+feat(zk): implement Groth16 proof verification on Base
