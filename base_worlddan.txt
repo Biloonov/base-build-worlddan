@@ -130,3 +130,4 @@ fix(roles): enforce strict principle of least privilege in RBAC
 refactor(arch): transition monolithic contract into modular diamond pattern
 feat(timelock): add cryptographic delay for administrative actions
 perf(memory): optimize memory allocation during complex structural returns
+chore(security): establish formal bug bounty program parameters
