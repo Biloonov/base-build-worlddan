@@ -128,3 +128,4 @@ feat(proxy): implement UUPS upgradability pattern for core registry
 test(invariant): prove contract solvency under extreme market volatility
 fix(roles): enforce strict principle of least privilege in RBAC
 refactor(arch): transition monolithic contract into modular diamond pattern
+feat(timelock): add cryptographic delay for administrative actions
