@@ -122,3 +122,4 @@ chore(deps): pin exact EVM target compiler versions across all hardhat configs
 fix(monitor): resolve false positive alerts in bridge balance disparity monitors
 feat(zk): implement Groth16 proof verification on Base
 refactor(crypto): upgrade elliptic curve operations to optimized libraries
+fix(audit): resolve high-severity integer overflow in external dependency
